@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T23:53:12 IST" name="Default suite" finished-at="2023-05-24T23:53:36 IST" duration-ms="24144">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T23:53:12 IST" name="Default test" finished-at="2023-05-24T23:53:36 IST" duration-ms="24144">
+      <class name="com.AutomationProject.EndToEndProject.EndToEndProject">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:12 IST" name="setup" finished-at="2023-05-24T23:53:16 IST" duration-ms="4019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="link()[pri:0, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:16 IST" name="link" finished-at="2023-05-24T23:53:29 IST" duration-ms="12977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- link -->
+        <test-method signature="GetTitle()[pri:1, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:29 IST" name="GetTitle" finished-at="2023-05-24T23:53:29 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetTitle -->
+        <test-method signature="DoubleClick()[pri:2, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:29 IST" name="DoubleClick" finished-at="2023-05-24T23:53:30 IST" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoubleClick -->
+        <test-method signature="TextEntry()[pri:3, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:30 IST" name="TextEntry" finished-at="2023-05-24T23:53:30 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TextEntry -->
+        <test-method signature="Search()[pri:4, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:30 IST" name="Search" finished-at="2023-05-24T23:53:30 IST" duration-ms="71" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method signature="SelectResults()[pri:5, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:30 IST" name="SelectResults" finished-at="2023-05-24T23:53:33 IST" duration-ms="3083" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='wikipedia-search-result-link'][1]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bb910b0c2c12dc3f96d9efa7c6038e4, findElement {using=xpath, value=//div[@id='wikipedia-search-result-link'][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61331/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bb910b0c2c12dc3f96d9efa7c6038e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@id='wikipedia-search-result-link'][1]"}
+  (Session info: chrome=113.0.5672.127)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.8.1', revision: '8ebccac989'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '19.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0bb910b0c2c12dc3f96d9efa7c6038e4, findElement {using=xpath, value=//div[@id='wikipedia-search-result-link'][1]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.127, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\Program Files (x86)\scop...}, goog:chromeOptions: {debuggerAddress: localhost:61331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61331/devtoo..., se:cdpVersion: 113.0.5672.127, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 0bb910b0c2c12dc3f96d9efa7c6038e4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:484)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+at com.AutomationProject.EndToEndProject.EndToEndProject.SelectResults(EndToEndProject.java:100)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectResults -->
+        <test-method signature="Alert()[pri:6, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="Alert" finished-at="2023-05-24T23:53:35 IST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alert -->
+        <test-method signature="SelectSpeed()[pri:7, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="SelectSpeed" finished-at="2023-05-24T23:53:35 IST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectSpeed -->
+        <test-method signature="SelectFile()[pri:8, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="SelectFile" finished-at="2023-05-24T23:53:35 IST" duration-ms="175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SelectFile -->
+        <test-method signature="DatePicker()[pri:9, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="DatePicker" finished-at="2023-05-24T23:53:35 IST" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatePicker -->
+        <test-method signature="DragAndDrop()[pri:10, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="DragAndDrop" finished-at="2023-05-24T23:53:35 IST" duration-ms="303" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DragAndDrop -->
+        <test-method signature="Slider()[pri:11, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:35 IST" name="Slider" finished-at="2023-05-24T23:53:36 IST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Slider -->
+        <test-method signature="Resizable()[pri:12, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:36 IST" name="Resizable" finished-at="2023-05-24T23:53:36 IST" duration-ms="482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resizable -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.AutomationProject.EndToEndProject.EndToEndProject@179ece50]" started-at="2023-05-24T23:53:36 IST" name="TearDown" finished-at="2023-05-24T23:53:36 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.AutomationProject.EndToEndProject.EndToEndProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
